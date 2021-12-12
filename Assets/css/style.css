@@ -14,7 +14,7 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: 'Times News Roman';
   color: var(--primary);
   background-color: var(--light);
   line-height: 1.5;
@@ -33,15 +33,24 @@ p {
   margin: 0;
 }
 
+.profile-image{
+  background-image: url("../images/02-hero-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  border-radius:50%;  
+  width:200px;
+  height:200px;
+}
 header {
   padding: 15px 6% 15px 0;
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  flex-wrap: wrap;
+  flex-direction:row;
+  justify-content: left;
+  flex-wrap:wrap;
   align-items: center;
   background-color: var(--tertiary);
   box-shadow: 0 5px 35px rgba(146, 204, 206, 0.4);
+  
 }
 
 header h1 {
@@ -241,6 +250,20 @@ main {
 }
 
 /* end portfolio project images */
+
+/*resume
+.resume {
+    border: 5px solid;
+    background-color: var(--primary);
+    color: green;
+}
+
+head {
+  font-size: 20px;
+}
+*/
+
+
 
 @media screen and (max-width: 980px) {
   header {
